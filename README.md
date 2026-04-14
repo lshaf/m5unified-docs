@@ -6,6 +6,15 @@
 > Generated from source: `src/M5Unified.cpp`, `src/utility/*.{cpp,hpp}`,
 > `../M5GFX/src/*`. If something looks wrong, the source wins.
 
+## Cross-device reference docs
+
+Deep dives that span multiple boards. Linked from device files as "see REF_…":
+
+- **[REF_DISPLAY_BRIGHTNESS.md](REF_DISPLAY_BRIGHTNESS.md)** — all 7 brightness mechanisms (PWM, AXP192/AXP2101 rails, I²C BL chips, I/O expanders, SSD1306 contrast) with standalone code + per-board pin/freq table.
+- **[REF_VOLUME_CONTROL.md](REF_VOLUME_CONTROL.md)** — software DSP formula (magnification × master² × channel²) + hardware codec register paths (AW88298, ES8311, ES8388) + buzzer duty-cycle.
+- **[REF_POWER_MANAGEMENT.md](REF_POWER_MANAGEMENT.md)** — battery %, voltage, current, and charging detection across AXP192 / AXP2101 / IP5306 / AW32001 / PY32PMIC / INA226 / plain ADC. Standalone register reads per PMIC.
+- **[REF_POWER_CONTROL.md](REF_POWER_CONTROL.md)** — powerOff / deepSleep / lightSleep / timerSleep + power-hold GPIO latches + wake sources (ext0, RTC INT, touch INT) + PMIC power-key handling.
+
 ## How to read these files
 
 Every board file has the same sections:
