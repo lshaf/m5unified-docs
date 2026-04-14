@@ -1,5 +1,7 @@
 # M5Paper — standalone code
 
+> **Cross-device references:** [Display brightness](REF_DISPLAY_BRIGHTNESS.md) · [Speaker volume](REF_VOLUME_CONTROL.md) · [Battery & PMIC](REF_POWER_MANAGEMENT.md) · [Sleep / Power-off](REF_POWER_CONTROL.md)
+
 **Board enum:** `board_M5Paper` (7)
 **SoC:** ESP32-D0WDQ6 + 8 MB PSRAM
 

@@ -1,5 +1,7 @@
 # M5AtomU — standalone code
 
+> **Cross-device references:** [Display brightness](REF_DISPLAY_BRIGHTNESS.md) · [Speaker volume](REF_VOLUME_CONTROL.md) · [Battery & PMIC](REF_POWER_MANAGEMENT.md) · [Sleep / Power-off](REF_POWER_CONTROL.md)
+
 **Board enum:** `board_M5AtomU` (130)
 **SoC:** ESP32-PICO-D4
 

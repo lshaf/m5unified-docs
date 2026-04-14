@@ -1,5 +1,7 @@
 # M5VAMeter — standalone code
 
+> **Cross-device references:** [Display brightness](REF_DISPLAY_BRIGHTNESS.md) · [Speaker volume](REF_VOLUME_CONTROL.md) · [Battery & PMIC](REF_POWER_MANAGEMENT.md) · [Sleep / Power-off](REF_POWER_CONTROL.md)
+
 **Board enum:** `board_M5VAMeter` (16)
 **SoC:** ESP32-S3
 

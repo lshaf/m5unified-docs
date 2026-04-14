@@ -1,5 +1,7 @@
 # M5Tab5 — standalone code
 
+> **Cross-device references:** [Display brightness](REF_DISPLAY_BRIGHTNESS.md) · [Speaker volume](REF_VOLUME_CONTROL.md) · [Battery & PMIC](REF_POWER_MANAGEMENT.md) · [Sleep / Power-off](REF_POWER_CONTROL.md)
+
 **Board enum:** `board_M5Tab5` (22)
 **SoC:** ESP32-P4 (dual-core RISC-V @ 400 MHz, MIPI-DSI, MIPI-CSI, dual-channel PSRAM)
 

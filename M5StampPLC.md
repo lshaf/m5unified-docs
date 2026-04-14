@@ -1,5 +1,7 @@
 # M5StampPLC — standalone code
 
+> **Cross-device references:** [Display brightness](REF_DISPLAY_BRIGHTNESS.md) · [Speaker volume](REF_VOLUME_CONTROL.md) · [Battery & PMIC](REF_POWER_MANAGEMENT.md) · [Sleep / Power-off](REF_POWER_CONTROL.md)
+
 **Board enum:** `board_M5StampPLC` (21)
 **SoC:** ESP32-S3
 

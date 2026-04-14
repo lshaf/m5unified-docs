@@ -1,5 +1,7 @@
 # M5TimerCam — standalone code
 
+> **Cross-device references:** [Display brightness](REF_DISPLAY_BRIGHTNESS.md) · [Speaker volume](REF_VOLUME_CONTROL.md) · [Battery & PMIC](REF_POWER_MANAGEMENT.md) · [Sleep / Power-off](REF_POWER_CONTROL.md)
+
 **Board enum:** `board_M5TimerCam` (132)
 **SoC:** ESP32-D0WDQ6 + 8 MB PSRAM
 **Camera:** OV3660 (3 MP) — **not** managed by M5Unified, you drive it via `esp32-camera`

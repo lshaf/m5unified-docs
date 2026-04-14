@@ -1,5 +1,7 @@
 # M5StackCore2 — standalone code
 
+> **Cross-device references:** [Display brightness](REF_DISPLAY_BRIGHTNESS.md) · [Speaker volume](REF_VOLUME_CONTROL.md) · [Battery & PMIC](REF_POWER_MANAGEMENT.md) · [Sleep / Power-off](REF_POWER_CONTROL.md)
+
 **Board enum:** `board_M5StackCore2` (2)
 **SoC:** ESP32-D0WDQ6 (16 MB flash, 8 MB PSRAM)
 **Two revisions:** v1.0 uses **AXP192**, v1.1 uses **AXP2101** — auto-detected.
